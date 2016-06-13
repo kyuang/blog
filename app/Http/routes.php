@@ -12,6 +12,12 @@
 */
 //前台
 Route::any('/','IndexController@index');
+Route::any('about','IndexController@about');
+Route::any('news','IndexController@news');
+Route::any('talk','IndexController@talk');
+Route::any('learn','IndexController@learn');
+Route::any('message','IndexController@message');
+
 
 
 
